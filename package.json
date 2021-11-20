@@ -1,0 +1,35 @@
+{
+    "name": "prompt-path",
+    "version": "1.0.1",
+    "description": "Get the file system path in CLI app",
+    "author": {
+        "name": "Pavel Dymkov"
+    },
+    "license": "ISC",
+    "keywords": [
+        "prompt",
+        "path"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PavelDymkov/prompt-path.git"
+    },
+    "scripts": {
+        "build": "packagr",
+        "start": "packagr --target dev",
+        "test": "ts-node --project test/tsconfig.json test/run.ts"
+    },
+    "dependencies": {
+        "logical-not": "^1.0.9",
+        "shelljs": "^0.8.4",
+        "untildify": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.7",
+        "@types/shelljs": "^0.8.9",
+        "npm-packagr": "^1.0.9",
+        "prettier": "^2.4.1",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.4.4"
+    }
+}

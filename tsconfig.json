@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "package",
+        "target": "ES2020",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "declaration": true,
+        "declarationDir": "package",
+        "strict": true
+    },
+
+    "files": ["src/index.ts"],
+    "include": ["src"],
+    "exclude": ["test"]
+}
